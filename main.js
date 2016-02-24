@@ -1,3 +1,5 @@
+// 'use strict';
+
 function nameadd() {
     var nameNew = new objectName();
     console.log(nameNew);
@@ -27,3 +29,32 @@ function getRandom(){
   randomName.innerHTML = rndLi.innerText;
 
 }
+
+
+// var names = ['ryan', 'ashley', 'karston', 'luciano', 'will'];
+
+// function sample(array){
+//     return array[Math.floor( Math.random() * array.length)]
+// }
+
+// function shuffle(array) {
+//     var arrayCopy = array.concat()
+
+//     return shuffledArray;
+// }
+
+// function pop(array) {
+//     return array.pop();
+// }
+
+// function shuffle(names) {
+//     var i, j, foo;
+//     for (foo = names.length; foo; foo -= 1) {
+//         i = Math.floor(Math.random() * foo);
+//         j = a[foo - 1];
+//         names[foo - 1] = names[i];
+//         names[i] = j
+//     }
+//     return names;
+// }
+// var shuffledArray = shuffle(names);
