@@ -22,8 +22,8 @@ function getRandom(){
   var qty = lis.length
   var rndIndex = Math.floor(Math.random() * qty)
   var rndLi = lis[rndIndex]
-  var randomName = document.getElementById("random");
-  randomName.classList.add('awesome');
-  randomName.innerHTML = name;
+  var randomName = document.getElementById('placeholder');
+  randomName.classList.add('mystyle');
+  randomName.innerHTML = rndLi.innerText;
 
 }
